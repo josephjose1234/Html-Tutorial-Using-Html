@@ -1,43 +1,52 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><!--Called Document Type Declaration,
+it informs the web browser about the type and version of HTML being used-->
+<html><!--Opening tag that defines an html document-->
 
-<head>
+<head><!--section contains the metadata about the document, -->
     <title>HTML</title>
+    <!--Title is metadata , Used to define the title of an HTML document, appears at Browsers title Bar or Tab-->
 
-</head>
+</head><!--Closing Tag for <head> Tag-->
 
-<body>
+<body><!--Section contains all the elements that you want
+     to display, in this project all the items in the 
+     screen is wrapped in body tag-->
     <div align="center">
-        <h1>
+        <!--Division tag used for grouping and structuring content on a Web Page, Here it used to Group the Heading and Introduction-->
+        <h1><!--Heading Tag For Displaying Headings, there are six different types of heading ranging from h1- h6-->
             HTML
-        </h1>
-        <h2>Welcome to HTML, A Tutorial Made by using html itself!!</h2>
-
+        </h1><!--Closing Tag for <h1>-->
+        <h2>Welcome to HTML, A Tutorial Made by using html itself!!</h2><!--Example for <h2> Heading-->
         <P>HTML is a markup language used for creating the structure
             and presentation of web pages. It provides a way to define
             the elements and content of a web page, and it serves as
             the foundation for building websites and web applications</P>
+        <!--Paragraph tag used to define  paragraphs in Html-->
     </div>
     <div>
         <h2>Usage</h2>
         <p>
-            This tutorial itself is an live tutorial,it is an interactive tutorial, you can check the source code of this html page to view a more described Explanations, the tutorial is designed to learn by doing 
+            This tutorial itself is an live tutorial,it is an interactive tutorial, you can check the source code of
+            this html page to view a more described Explanations, the tutorial is designed to learn by doing
         </p>
-      </div>
-    <div align="center">
-        <h2>lets get to the Code</h2>
     </div>
-  
+    <div align="center">
+        <!--here "align="center" ", is used to align the contents in the <div> to the center of the Screen-->
+        <h2>lets get to the Code</h2><!--Exapmle of Heading <h2>-->
+    </div>
     <div>
-        <table cellspacing="10">
-            <tr>
+        <table cellspacing="10"><!--<table> used to define a Table-->
+            <tr><!-- used to define Table Row in Html-->
                 <td><a href="#section1">Html Tags </a></td>
+                <!--here <<td> for Table Data ,<a> or Anchor tag used to define Links in an Html Page-->
                 <td><a href="#section2">Html Elements </a></td>
+                <!--here "href" is an attribute of <a> Tag, used,href is sed to define the target Limk-->
                 <td><a href="#section3">Html Attributes </a></td>
                 <td><a href="#section4">Html Tag</a></td>
                 <td><a href="#section5">Head Tag</a></td>
                 <td><a href="#section6">title Tag</a></td>
-            </tr>
+                <!--Here each <td> reperesents a cell in the row, totally six columns in this Row-->
+            </tr><!-- Defined Another Table Row-->
             <tr>
                 <td><a href="#section7">Body Tag</a></td>
                 <td><a href="#section8">Heading Tag</a></td>
@@ -72,810 +81,807 @@
             </tr>
             <tr>
                 <td><a href="#section31">Character Entities</a></td>
-            <td><a href="#section32">Forms</a></td>
+                <td><a href="#section32">Forms</a></td>
             </tr>
+            <!--Each <tr> defines a Row inside the Table-->
         </table>
     </div>
-    <div>
+    <div><!--A <div> that wraps all the content-->
         <section id="section1">
-            <h3>Html Tags</h3>
+            <!--As the name suggest section is used to define a section in Html,Used for Thematic grouping of content in a Page.-->
+            <h3>Html Tags</h3><!--Example for <h3>-->
             <p>Tags are used to mark up the start of an HTML element and they
                 are usually enclosed in angle brackets. An example of a tag is:
-                <code>&lt;h1&gt;</code>.
-                Most tags must be opened <code>&lt;h1&gt;</code> and closed
+                <code>&lt;h1&gt;</code>.<!--Here <code> Tag is used to Define a code in Html -->
+                n Most tags must be opened <code>&lt;h1&gt;</code> and closed
                 <code>&lt;/h1&gt;</code> in order to function.
             </p>
-            <section id="section2">
-                <!--for Elements-->
-                <h3>Html Elements</h3>
-                <p>The HTML element is everything from the start tag to the end tag:
-                    <code>&lt;tagname>Content goes here...&gt;</code> <code>&lt;tagname&gt;</code>
-                </p>
-                <p> Examples of some HTML elements:</p>
-                <h1>My First Heading, write using the &lt;h1&gt;</h1>
-                <p>My first paragraph, write using the &lt;p&gt;</p>
-            </section>
-            <section id="section3">
-                <h3>Html Attributes</h3>
-                <p>
-                    HTML attributes are special words used inside the opening tag to control the element's behaviour.
-                    HTML attributes are a modifier of a HTML element type. An attribute either modifies the default
-                    functionality of an element type or provides functionality to certain element types unable to
-                    function
-                    correctly without them. In HTML syntax, an attribute is added to a HTML start tag.
-                </p>
-                <h5>For Example here is using href and title Attributes in &lt;a&gt; </h5>
-               <a 
-               title="Dodge"
-               href="https://www.cnet.com/a/img/resize/20d6844768bd3f5f0df41deee97897423bcaf3c5/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=1200&width=1200">
+        </section>
+        <section id="section2">
+            <!--here "id" attribute allows you to uniquely label an element so that you can reference or link to it in your Html, id attribute works as identifier-->
+            <h3>Html Elements</h3>
+            <!--<h1>,<p>,<div> These are Examples for html Elements-->
+            <p>The HTML element is everything from the start tag to the end tag:
+                <code>&lt;tagname>Content goes here...&gt;</code> <code>&lt;tagname&gt;</code>
+            </p>
+            <p> Examples of some HTML elements:</p><!--<p> Tag is an Example for Html-->
+            <h1>My First Heading, write using the &lt;h1&gt;</h1>
+            <p>My first paragraph, write using the &lt;p&gt;</p>
+        </section>
+        <section id="section3">
+            <h3>Html Attributes</h3>
+            <p>
+                HTML attributes are special words used inside the opening tag to control the element's behaviour.
+                HTML attributes are a modifier of a HTML element type. An attribute either modifies the default
+                functionality of an element type or provides functionality to certain element types unable to
+                function
+                correctly without them. In HTML syntax, an attribute is added to a HTML start tag.
+            </p>
+            <h5>For Example here is using href and title Attributes in &lt;a&gt; </h5>
+            <a title="Dodge"
+                href="https://www.cnet.com/a/img/resize/20d6844768bd3f5f0df41deee97897423bcaf3c5/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=1200&width=1200">
                 click here to view Dodge
-               </a>
-               <b>write click then Inspect</b>
+            </a>
+            <!--here title is an attribute of <a> tag that is used for define title-->
+            <!-- href is another attribute of <a> Tag that used to specify the target location.-->
+            <b>write click then Inspect</b>
+            <p>
+                All HTML elements can have attributes
+            </p>
+        </section>
+        <section id="section4">
+            <h3>Html Tag</h3>
+            <p>
+                <code>&lt;html&gt;</code> Every HTML code must be enclosed between basic HTML tags.
+                It begins with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code> tag.
+            </p>
+        </section>
+        <section id="section5">
+            <h3>Head Tag</h3><!--For Example to at the <head> tag above -->
+            <code>&lt;head&gt;</code> The head tag comes next which contains all the header information of the web
+            page
+            or documents like the title of the page and other miscellaneous information. This
+            information is enclosed within the head tag which opens with <code>&lt;head&gt;</code> and ends with
+            <code>&lt;head&gt;</code>
+            The contents will of this tag will be explained in the later sections of the course.
+            <p>
+        </section>
+        <section id="section6">
+            <h3> Title Tag</h3><!--for Example look at title of this web page in Browser-->
+            <p>
+                <code>&lt;title&gt;</code> We can mention the title of a web page using the
+                <code>&lt;title&gt;</code>
+                tag.
+                This is header information and hence is mentioned within the header tags. The tag begins with
+                <code>&lt;title&gt;</code>
+                and ends with <code>&lt;title&gt;</code>.
+            </p>
+            <p>
+                defines a title in the browser toolbar.<br>
+                Provides a title for the page when it is added to favorites.
+                <br>Displays a title for the page in search engine-results
+            </p>
+            </p>
+
+            <section id="section7">
+                <h3>Body Tag</h3><!--All contents that displays in this page is wrapped in <body> tag-->
                 <p>
-                    All HTML elements can have attributes
+                    <code>&lt;body&gt;</code>
+                    The body tag contains the actual body of the page which will be visible to all the users.
+                    This opens with <code>&lt;body&gt;</code> and ends with <code>&lt;body&gt;</code> All content
+                    enclosed within this tag will be shown on the web page be it writings or images or audio or videos
+                    or even links. We will see later in the section how using various tags we may insert mentioned
+                    contents
+                    into our web pages.
                 </p>
-            </section>
-            <section id="section4">
-                <h3>Html Tag</h3>
-                <p>
-                    <code>&lt;html&gt;</code> Every HTML code must be enclosed between basic HTML tags.
-                    It begins with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code> tag.
-                </p>
-            </section>
-            <section id="section5">
-                <h3>Head Tag</h3>
-                <code>&lt;head&gt;</code> The head tag comes next which contains all the header information of the web
-                page
-                or documents like the title of the page and other miscellaneous information. This
-                information is enclosed within the head tag which opens with <code>&lt;head&gt;</code> and ends with
-                <code>&lt;head&gt;</code>
-                The contents will of this tag will be explained in the later sections of the course.
-                <p>
-            </section>
-            <section id="section6">
-                <h3> Title Tag</h3>
-                <p>
-                    <code>&lt;title&gt;</code> We can mention the title of a web page using the
-                    <code>&lt;title&gt;</code>
-                    tag.
-                    This is header information and hence is mentioned within the header tags. The tag begins with
-                    <code>&lt;title&gt;</code>
-                    and ends with <code>&lt;title&gt;</code>.
-                </p>
-                <p>
-                    defines a title in the browser toolbar.<br>
-                    Provides a title for the page when it is added to favorites.
-                    <br>Displays a title for the page in search engine-results
-                </p>
-                </p>
-            </section>
-<section id="section7"><h3>Body Tag</h3>
-    <p>
-        <code>&lt;body&gt;</code>
-        The body tag contains the actual body of the page which will be visible to all the users.
-        This opens with <code>&lt;body&gt;</code> and ends with <code>&lt;body&gt;</code> All content
-        enclosed within this tag will be shown on the web page be it writings or images or audio or videos
-        or even links. We will see later in the section how using various tags we may insert mentioned contents
-        into our web pages.
-    </p></section>
-            <section id="section8">
-                <h3>Heading Tags</h3>
-                <p>
-                    HTML Headings: These tags help us to give headings to the content of a webpage. These tags
-                    are mainly written inside the body tag. HTML provides us with six heading tags from
-                    <code>&lt;h1&gt;</code>to <code>&lt;h6&gt;</code>.
-                    Every tag displays the heading in a different style and font size.
-                </p>
-            </section>
-            <section id="section9">
-                <h3>Paragraph Tag</h3>
-                <p>
-                    These tags help us to write paragraph statements on a webpage. They start with the
-                    <code>&lt;p&gt;</code> tag and ends with <code>&lt;/p&gt;</code>.
-                </p>
-            </section>
-            <section id="section10">
-                <h3>Break Tag</h3>
-                <p>
-                    These tags are used for inserting a single line type break. It does not have any closing tag. In HTML
-                    the break tag is written as <code>&lt;br&gt;</code>.
-    
-                </p>
-            </section>
-            <section id="section11">
-                <h3>Horizontal Line Tag</h3>
-                <p>
-                    The <code>&lt;hr&gt;</code> tag is used to break the page into various parts, creating horizontal
-                    margins with help of a horizontal line running from the left to right-hand side of the page.
-                </p>
-                <h3>For Example here is Horizontal Line</h3>
-                <hr>
-            </section>
-            <section id="section12">
-                <h3>Image Tag</h3>
-                <p>
-                    The image tag is used to insert an image into our web page. The source of the image to be inserted is
-                    put inside the <code>&lt;img src=”source_of_image“&gt;</code> tag. 'src is an mandatory attribute to
-                    Image Tag.
-                    Here the 'source_of_image' can be a local image or a cloud image.For Local right click the image file
-                    and Copy Path, For Cloud Right Click then Copy Image Link Address
-                    Image can be inserted in the image tag in two formats:
-                <h3>For Example here is a Cloud image </h3>
-                <img
-                    src="https://www.cnet.com/a/img/resize/20d6844768bd3f5f0df41deee97897423bcaf3c5/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=1200&width=1200">
-                <p> there are several Attributes in Image Tag, 'alt','width','height','title' are the main ones. </p>
-    
-                </p>
-                <h3>For Example here is a an Image with width,height and title </h3>
-                <p>title appears when mouse at Image</p>
-                <img height="250" width="250" title="Dodge"
-                    src="https://www.cnet.com/a/img/resize/20d6844768bd3f5f0df41deee97897423bcaf3c5/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=1200&width=1200">
-            </section>
-            
-            
-           
-            <section id="section13">
-                <h3>Comments Tag</h3>
-                <p>
-                    Comments can be used to gide content Temporarly
-                </p>
-                <!--Add A Dodge ImageHere-->
-                <p>
-                    The comment tag ( <code>&lt;!-- hola --&gt;</code> ) is used to insert comments in the HTML code. It is
-                    a good practice of coding, so that coder and the reader can get help to understand the code. It is
-                    useful to understand steps of the complex code. The comment tag is helpful while the debugging of codes.
-                    It is a simple piece of code that is wiped off (ignore) by web browsers i.e. , not displayed by the
-                    browser.
-                    It helps the coder and reader to understand the piece of code used for especially in complex source
-                    code.
-                <h6>For more Right Click , then Inspect, </h6>
-                <!--Single Line Comment-->
-                <!--Multi 
+                <section id="section8">
+                    <h3>Heading Tags</h3><!--Example of using <h3> Heading Tag-->
+                    <p>
+                        HTML Headings: These tags help us to give headings to the content of a webpage. These tags
+                        are mainly written inside the body tag. HTML provides us with six heading tags from
+                        <code>&lt;h1&gt;</code>to <code>&lt;h6&gt;</code>.
+                        Every tag displays the heading in a different style and font size.
+                    </p>
+                </section>
+                <section id="section9">
+                    <h3>Paragraph Tag</h3>
+                    <p><!--the content below is wrapped inthis <p> tag-->
+                        These tags help us to write paragraph statements on a webpage. They start with the
+                        <code>&lt;p&gt;</code> tag and ends with <code>&lt;/p&gt;</code>.
+                    </p>
+                    <p><b>For Exapmle this is a paragraph wrapped in a <code>&lt;p&gt;</code>, it looks like this in
+                            html code,
+                            <code><code>&lt;p&gt;</code><code>&lt;b&gt;</code>For Exapmle this is a paragraph wrapped in
+                            a <code>&lt;p&gt;</code>, it looks like this
+                            <code>&lt;b&gt;</code><code>&lt;p&gt;</code></code>
+                        </b></p>
+                </section>
+                <section id="section10">
+                    <h3>Break Tag</h3><!--used to break a lines, doesn't has a closing Tag-->
+                    <p>
+                        These tags are used for inserting a single line type break. It does not have any closing tag. In
+                        HTML
+                        the break tag is written as <code>&lt;br&gt;</code>.
+                    </p>
+                    <p>for example, this line breaks,here <br> <!-- here the line breaks and starts a new line-->and
+                        starts a new line</p>
+                </section>
+                <section id="section11">
+                    <h3>Horizontal Line Tag</h3><!--used to define a horizontal line -->
+                    <p>
+                        The <code>&lt;hr&gt;</code> tag is used to break the page into various parts, creating
+                        horizontal
+                        margins with help of a horizontal line running from the left to right-hand side of the page.
+                    </p>
+                    <h3>For Example here is Horizontal Line</h3>
+                    <hr><!--<hr> tags displays a Horizontal line in the display-->
+                </section>
+                <section id="section12">
+                    <h3>Image Tag</h3><!--used for displaying images-->
+                    <p>
+                        The image tag is used to insert an image into our web page. The source of the image to be
+                        inserted is
+                        put inside the <code>&lt;img src=”source_of_image“&gt;</code> tag. 'src is an mandatory
+                        attribute to
+                        Image Tag.
+                        Here the 'source_of_image' can be a local image or a cloud image.For Local right click the image
+                        file
+                        and Copy Path, For Cloud Right Click then Copy Image Link Address
+                        Image can be inserted in the image tag in two formats:
+                    <h3>For Example here is a Cloud image </h3>
+                    <img
+                        src="https://www.cnet.com/a/img/resize/20d6844768bd3f5f0df41deee97897423bcaf3c5/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=1200&width=1200">
+                    <p> there are several Attributes in Image Tag, 'alt','width','height','title' are the main ones.
+                    </p>
+                    <!--here <img> tag is used to define the picture, "src" attribute specifies the source of the image file-->
+                    </p>
+                    <h3>For Example here is a an Image with width,height and title </h3>
+                    <p>title appears when mouse at Image</p>
+                    <!--Here "width", "height" ,"title" are attributes of <img> tag-->
+                    <img height="250" width="250" title="Dodge"
+                        src="https://www.cnet.com/a/img/resize/20d6844768bd3f5f0df41deee97897423bcaf3c5/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=1200&width=1200">
+                </section>
+                <section id="section13">
+                    <h3>Comments Tag</h3>
+                    <p>
+                        Comments can be used to hide content temporarily
+                        <br><b>Right Click , Inspect</b>
+                    </p>
+                    <!--Hello this is an Example for comments in Html-->
+                    <p>
+                        The comment tag ( <code>&lt;!-- hola --&gt;</code> ) is used to insert comments in the HTML
+                        code. It is
+                        a good practice of coding, so that coder and the reader can get help to understand the code. It
+                        is
+                        useful to understand steps of the complex code. The comment tag is helpful while the debugging
+                        of codes.
+                        It is a simple piece of code that is wiped off (ignore) by web browsers i.e. , not displayed by
+                        the
+                        browser.
+                        It helps the coder and reader to understand the piece of code used for especially in complex
+                        source
+                        code.
+                    <h6>For more Right Click , then Inspect, </h6>
+                    <!--Single Line Comment-->
+                    <!--Multi 
                     Line
                     Comment
                 -->
-                </p>
-            </section> 
-            <section id="section14">
-                <h3>Line Break Tag</h3>
-                <p>
-                    The HTML <code>&lt;br&gt;</code> element defines a line break.
-                    Use <code>&lt;br&gt;</code> if you want a line break (a new line) without starting a new paragraph:
-                </p>
-                <h3>For Example <br>here <br> </h3>
-            </section>
-            <section id="section">
-    
-            </section>
-            <section id="section">
-    
-            </section>
-            <section id="section">
-    
-            </section>
+                    </p>
+                </section>
+                <section id="section15">
+                    <h3>Text Formating Elements</h3>
+                    <p>Formatting elements were designed to display <mark>special</mark> types of text:</p>
+                    <p>
+                        <code>&lt;b&gt;</code> - Bold text For <b>Example</b>
+                    </p>
+
+                    <p>
+                        <code>&lt;strong&gt;</code>- Important text For <strong> Example</strong>
+                    </p>
+
+                    <p>
+                        <code>&lt;i&gt;</code> - Italic text For <i> Example</i>
+                    </p>
 
 
-           
-        </section>
+                    <p>
+                        <code>&lt;em&gt;</code> - Emphasized text For <em> Example</em>
+                    </p>
 
+                    <p>
+                        <code>&lt;mark&gt;</code> - Marked text For<mark> Example</mark>
+                    </p>
+                    <p>
+                        <code>&lt;small&gt;</code> - Smaller text For<small> Example</small>
+                    </p>
+                    <p>
+                        <code>&lt;del&gt;</code> - Deleted text For <del> Example</del>
+                    </p>
 
-        <section id="section15">
-            <h3>Text Formating Elements</h3>
-            <p>Formatting elements were designed to display <mark>special</mark> types of text:</p>
-            <p>
-                <code>&lt;b&gt;</code> - Bold text For <b>Example</b>
-            </p>
+                    <p>
+                        <code>&lt;ins&gt;</code> - Inserted text For<ins> Example</ins>
+                    </p>
 
-            <p>
-                <code>&lt;strong&gt;</code>- Important text For <strong> Example</strong>
-            </p>
+                    <p>
+                        <code>&lt;sub&gt;</code> - Subscript text For<sub> Example</sub>
+                    </p>
 
-            <p>
-                <code>&lt;i&gt;</code> - Italic text For <i> Example</i>
-            </p>
+                    <p>
+                        <code>&lt;sup&gt;</code> - Superscript text For<sup> Example</sup>
+                    </p>
+                    </p>
+                </section>
+                <section id="section16">
+                    <h3>Quotation and Citation Elements</h3>
+                    <p>
+                        <code>&lt;abbr&gt;</code> Defines an abbreviation or acronym For<abbr
+                            title="This is an Example">Example</abbr>
+                    </p>
+                    <!--in this Example <abbr> is used to show the title-->
+                    <p>
+                        <code>&lt;address&gt;</code> Defines contact information for the author/owner of a document
+                    <address> Written by Joseph<br>
+                        GithubAddress</address>
+                    </p>
+                    <p>
+                        <code>&lt;q&gt;</code> Defines a short inline quotation For<q>Example</q>
+                    </p>
+                </section>
+                <section id="section17">
+                    <h3>Links</h3>
+                    <!--<a> tag is used to define Links in Html Document,href is attribute that specifies the Target Link-->
+                    <p>HTML links are hyperlinks.
+                        You can click on a link and jump to another document.
+                        When you move the mouse over a link, the mouse arrow will turn into a <a href="Dodge.com">Little
+                            hand</a></p>
+                    <p>For <a href="">Example</a></p>
+                    <p>
+                        An unvisited link is underlined and blue.
+                        A visited link is underlined and purple.
+                        An active link is underlined and red.
+                    </p>
+                    <p>
+                        you can use an Image and Button as a Link Text
+                    </p>
+                    <p> For <button onclick="">Example</button></p>
+                    <!--<button> tag is used for defining Button in Html Document-->
+                </section>
+                <section id="section18">
+                    <h3>Bookmarks</h3><!--a <a> tag is used to define bookmarks in html-->
+                    <p>Bookmarks can be useful if a web page is very long.
+                        To create a bookmark - first create the bookmark, then add a link to it.
+                        When the link is clicked, the page will scroll down or up to the location with the bookmark.</p>
+                    <p>for <a href="">Example</a></p>
+                </section>
+                <Section id="section19">
+                    <h3>Tables</h3><!--<table> tag is used to define Tables in Html,-->
+                    <p>For Example </p>
+                    </P>
+                    <table>
+                        <caption>Table Caption </caption>
+                        <colgroup>
+                            <col style="background-color: lightgray;">
+                            <col style="background-color: lightblue;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Tag</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> <code>&lt;table&gt;</code></td>
+                                <td>Defines a table</td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;th&gt;</code></td>
+                                <td>Defines a header cell in a table</td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;td&gt;</code></td>
+                                <td>Defines a cell in a table</td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;caption&gt;</code></td>
+                                <td>Defines a table caption</td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;tr&gt;</code></td>
+                                <td> Defines a row in a table</td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;colgroup&gt;</code></td>
+                                <td>Specifies a group of one or more columns in a table for formatting</td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;col&gt;</code></td>
+                                <td>Specifies column properties for each column within a <code>&lt;colgroup&gt;</code>
+                                    element
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;thead&gt;</code></td>
+                                <td>Groups the header content in a table
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;tbody&gt;</code></td>
+                                <td>Groups the body content in a table</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2"><code>&lt;tfoot&gt;</code> Groups the footer content in a table</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </Section>
+                <section id="section20">
+                    <h3>lists</h3>
+                    <!--<ul> for Unordered List, <ol> for Ordered List, Every item in aList must be wraped with <li> Tag <-->
+                    <p> <b>An Ordered HTML list</b></p>
+                    <b>Below is an example</b>
+                    <ul>
+                        <li> An unordered list starts with the <code>&lt;ul&gt;</code> tag.</li>
+                        <li>Each list item starts with the <code>&lt;li&gt;</code> tag.</li>
+                        <li>The list items will be marked with bullets (small black circles) by default</li>
+                    </ul>
+                    <p>
+                        <b>An Unordered HTML list</b>
+                    </p>
+                    <b>Below is an example</b>
+                    <ol>
+                        <li>
+                            An unordered list starts with the <code>&lt;ol&gt;</code> tag.</li>
+                        <li>Each list item starts with the <code>&lt;li&gt;</code> tag.</li>
+                        <li>The list items will be marked with numbers by default</li>
+                        <li>If you want to start counting from a specified number, you can use the
+                            <code>&lt;ol start="50"&gt;</code> attribute, List will start at 50
+                        </li>
+                    </ol>
+                    <p>
+                        <b>Description list</b>
+                    </p>
+                    <b>Below is an example</b>
+                    <dl>
+                        <!--<dl is used to define description List-->
+                        <dt>A Description List</dt>
+                        <dd>The <code>&lt;dl&gt;</code> tag defines the description list</dd>
+                        <dt>The <code>&lt;dt&gt;</code> tag defines the term(List)</dt>
+                        <dd>The <code>&lt;dd&gt;</code> tag describes each term(Description)</dd>
+                    </dl>
+                </section>
+                <section id="section21">
+                    <h3>Block-level Elements</h3>
+                    <p><!-- Here this paragraph Tag is an Example for Block Level Elements-->
+                        A block-level element always starts on a new line, and the browsers automatically add some space
+                        (a
+                        margin) before and after the element.
 
+                        A block-level element always takes up the full width available (stretches out to the left and
+                        right as
+                        far as it can).
 
-            <p>
-                <code>&lt;em&gt;</code> - Emphasized text For <em> Example</em>
-            </p>
+                        Two commonly used block elements are: <code>&lt;p&gt;</code> and<code>&lt;div&gt;</code>.
+                    <p>
+                        The <code>&lt;p&gt;</code> element defines a paragraph in an HTML document. Look here
+                    </p>
 
-            <p>
-                <code>&lt;mark&gt;</code> - Marked text For<mark> Example</mark>
-            </p>
-            <p>
-                <code>&lt;small&gt;</code> - Smaller text For<small> Example</small>
-            </p>
-            <p>
-                <code>&lt;del&gt;</code> - Deleted text For <del> Example</del>
-            </p>
+                    <div>
+                        <p>The <code>&lt;div&gt;</code> element defines a division or a section in an HTML document.</p>
+                    </div>
+                    <p><b>List of Block Level Elements</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><code>&lt;address&gt;</code></td>
+                            <td><code>&lt;article&gt;</code></td>
+                            <td><code>&lt;aside&gt;</code></td>
+                            <td><code>&lt;blockquote&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;canvas&gt;</code></td>
+                            <td><code>&lt;div&gt;</code></td>
+                            <td><code>&lt;dl&gt;</code></td>
+                            <td><code>&lt;dt&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;fieldset&gt;</code></td>
+                            <td><code>&lt;figcaption&gt;</code></td>
+                            <td><code>&lt;figure&gt;</code></td>
+                            <td><code>&lt;footer&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;form&gt;</code></td>
+                            <td><code>&lt;h1&gt;-&lt;h6&gt;</code></td>
+                            <td><code>&lt;header&gt;</code></td>
+                            <td><code>&lt;hr&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;li&gt;</code></td>
+                            <td><code>&lt;main&gt;</code></td>
+                            <td><code>&lt;nav&gt;</code></td>
+                            <td><code>&lt;noscript&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;ol&gt;</code></td>
+                            <td><code>&lt;p&gt;</code></td>
+                            <td><code>&lt;pre&gt;</code></td>
+                            <td><code>&lt;section&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;table&gt;</code></td>
+                            <td><code>&lt;tfoot&gt;</code></td>
+                            <td><code>&lt;ul&gt;</code></td>
+                            <td><code>&lt;video&gt;</code></td>
+                        </tr>
+                    </table>
+                    </p>
+                </section>
+                <section id="section22">
+                    <h3>Inline Elements</h3>
+                    <p>
+                        An inline element does not start on a new line.
+                        An inline element only takes up as much width as necessary.
+                    </p>
+                    <b>List of Inline Elements</b>
+                    <table>
+                        <tr>
+                            <td><code>&lt;a&gt;</code></td>
+                            <td><code>&lt;abbr&gt;</code></td>
+                            <td><code>&lt;acronym&gt;</code></td>
+                            <td><code>&lt;b&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;bdo&gt;</code></td>
+                            <td><code>&lt;big&gt;</code></td>
+                            <td><code>&lt;br&gt;</code></td>
+                            <td><code>&lt;button&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;cite&gt;</code></td>
+                            <td><code>&lt;code&gt;</code></td>
+                            <td><code>&lt;dfn&gt;</code></td>
+                            <td><code>&lt;em&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;i&gt;</code></td>
+                            <td><code>&lt;img&gt;</code></td>
+                            <td><code>&lt;input&gt;</code></td>
+                            <td><code>&lt;kbd&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;label&gt;</code></td>
+                            <td><code>&lt;map&gt;</code></td>
+                            <td><code>&lt;object&gt;</code></td>
+                            <td><code>&lt;output&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;q&gt;</code></td>
+                            <td><code>&lt;samp&gt;</code></td>
+                            <td><code>&lt;script&gt;</code></td>
+                            <td><code>&lt;select&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;small&gt;</code></td>
+                            <td><code>&lt;span&gt;</code></td>
+                            <td><code>&lt;strong&gt;</code></td>
+                            <td><code>&lt;sub&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;sup&gt;</code></td>
+                            <td><code>&lt;textarea&gt;</code></td>
+                            <td><code>&lt;time&gt;</code></td>
+                            <td><code>&lt;tt&gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;var&gt;</code></td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="section23">
+                    <h3>Class</h3>
+                    <p>
+                        The class attribute is often used to point to a class name in a style sheet. It can also be used
+                        by a
+                        JavaScript to access and manipulate elements with the specific class name
+                        The class name is case sensitive!
+                        HTML elements can belong to more than one class.Different elements can share Same Class
+                    </p>
+                    <p>
+                        To create a class; write a period (.) character, followed by a class name <b>.class{}</b>
+                    </p>
+                </section>
+                <section id="section">
+                    <h3>
+                        ID Attribute
+                    </h3>
+                    <!--AddExamples here-->
+                    <p>
+                        The <code>&lt;id&gt;</code> attribute specifies a unique id for an HTML element. The value of
+                        the
+                        <code>&lt;id&gt;</code> attribute must be unique
+                        within the HTML document.
+                        The <code>&lt;id&gt;</code> attribute is used to point to a specific style declaration in a
+                        style sheet.
+                        It is also used by
+                        JavaScript to access and manipulate the element with the specific id.
+                        The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS
+                        properties within curly braces {}.
+                    </p>
+                    <p>
+                        Difference between Class and ID<br>
+                        A class name can be used by multiple HTML elements, while an id name must only be used by one
+                        HTML
+                        element within the page
 
-            <p>
-                <code>&lt;ins&gt;</code> - Inserted text For<ins> Example</ins>
-            </p>
+                    </p>
+                    <p>For exapmle every Bookmarks used in this tutorial is an id.</p>
+                </section>
+                <section id="section24">
+                    <h3>Iframe</h3>
+                    <p>An inline frame is used to embed another document within the current HTML document.</p>
+                    <code>&lt;iframe src="url" title="description"&gt;</code> <code>&lt;/iframe&gt;</code>
+                    <p>
+                        In here the 'url' is target page.
+                    </p>
+                    <p>
+                        It is a good practice to always include a title attribute for the <code>&lt;iframe&gt;</code>.
+                        This is
+                        used by screen readers to read out what the content of the iframe. Use the height and width
+                        attributes
+                        to specify the size of the iframe.
+                    </p>
+                    <iframe src="https://www.google.com/" width="400" height="400"></iframe>
+                </section>
+                <section id="section25">
+                    <h3>JavaScript</h3>
+                    <p>
+                        The HTML <code>&lt;script&gt;</code> tag is used to define a client-side script (JavaScript).
 
-            <p>
-                <code>&lt;sub&gt;</code> - Subscript text For<sub> Example</sub>
-            </p>
+                        <br>The <code>&lt;script&gt;</code> element either contains script statements, or it points to
+                        an
+                        external script file through the src attribute.
 
-            <p>
-                <code>&lt;sup&gt;</code> - Superscript text For<sup> Example</sup>
-            </p>
-            </p>
-        </section>
-        <section id="section16">
-            <h3>Quotation and Citation Elements</h3>
-            <p>
-                <code>&lt;abbr&gt;</code> Defines an abbreviation or acronym For<abbr
-                    title="This is an Example">Example</abbr>
-            </p>
-            <p>
-                <code>&lt;address&gt;</code> Defines contact information for the author/owner of a document
-            <address> Written by Joseph<br>
-                GithubAddress</address>
-            </p>
-            <p>
-                <code>&lt;q&gt;</code> Defines a short inline quotation For<q>Example</q>
-            </p>
-        </section>
-        <section id="section17">
-            <h3>Links</h3>
-            <p>HTML links are hyperlinks.
-                You can click on a link and jump to another document.
-                When you move the mouse over a link, the mouse arrow will turn into a <a href="Dodge.com">Little
-                    hand</a></p>
-            <p>For <a href="">Example</a></p>
-            <p>
-                An unvisited link is underlined and blue.
-                A visited link is underlined and purple.
-                An active link is underlined and red.
-            </p>
-            <p>
-                you can use an Image and Button as a Link Text
-            </p>
-            <p> For <button onclick="">Example</button></p>
-            <p>For <!--AddAnImageSaysExample??--></p>
+                        Common uses for JavaScript are image manipulation, form validation, and dynamic changes of
+                        content.
+                        <br>
+                        To select an HTML element, JavaScript most often uses the document.getElementById() method.
+                    </p>
+                    <p>
+                        For Example
+                    <p>Click the button below to see an alert.</p>
 
-        </section>
-        <section id="section18">
-            <h3>Bookmarks</h3>
-            <p>Bookmarks can be useful if a web page is very long.
-                To create a bookmark - first create the bookmark, then add a link to it.
-                When the link is clicked, the page will scroll down or up to the location with the bookmark.</p>
-            <p>for <a href="">Example</a></p>
-            <!--AddBookmark-->
-        </section>
-        <section>
-            <h3>Images</h3>
-            <!--Images???ImageMaps???-->
-        </section>
-        <Section id="section19">
-            <h3>Tables</h3>
+                    <!-- A button that triggers the JavaScript function when clicked -->
+                    <button onclick="showAlert()">Click Me</button>
 
-            <p>For Example </p>
-            </P>
-            <table>
-                <caption>Table Caption </caption>
-                <colgroup>
-                    <col style="background-color: lightgray;">
-                    <col style="background-color: lightblue;">
-                </colgroup>
-                <thead>
+                    <script>
+                        // JavaScript function to show an alert
+                        function showAlert() {
+                            alert("Hello, this is a simple JavaScript alert!");
+                        }
+                    </script>
+                    </p>
+                </section>
+                <section id="section26">
+                    <h3>File Paths</h3>
+                    <p>
+                        A file path describes the location of a file in a web site's folder structure.
+                        File paths are used when linking to external files, like:
+                    <ul>
+                        <li>Web pages</li>
+                        <li>Images</li>
+                        <li>Style sheets</li>
+                        <li>JavaScripts</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <b>Relative File Paths</b>
+                        <br>
+                        A relative file path points to a file relative to the current page.
+
+                        In the following example, the file path points to a file in the images folder located at the
+                        root of the
+                        current web.<br>
+                        <code>&lt;img src="/images/picture.jpg" alt="Mountain"&gt;</code>
+                    </p>
+                    <p>
+                        <b>Absolute File Paths</b>
+                        <br>
+                        An absolute file path is the full URL to a file:
+
+                        <br>
+                        <code>&lt;img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain"&gt;</code>
+                    </p>
+
+                </section>
+                <section id="section27">
+                    <h3>
+                        Meta Element
+                    </h3>
+                    <p>
+                        The
+                        <meta> element is typically used to specify the character set, page description, keywords,
+                        author of the
+                        document, and viewport settings.
+                        <br>
+                        The metadata will not be displayed on the page, but is used by browsers (how to display content
+                        or
+                        reload page), by search engines (keywords), and other web services.
+                    </p>
+                </section>
+                <table border="1">
                     <tr>
-                        <th>Tag</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> <code>&lt;table&gt;</code></td>
-                        <td>Defines a table</td>
+                        <th>HTML Meta Tags</th>
+                        <th>Content</th>
                     </tr>
                     <tr>
-                        <td><code>&lt;th&gt;</code></td>
-                        <td>Defines a header cell in a table</td>
+                        <td>&lt;meta charset="UTF-8"&gt;</td>
+                        <td>Defines the character set used</td>
                     </tr>
                     <tr>
-                        <td><code>&lt;td&gt;</code></td>
-                        <td>Defines a cell in a table</td>
+                        <td>&lt;meta name="keywords" content="HTML Tutorial using HTML"&gt;</td>
+                        <td>Defines keywords for search engines</td>
                     </tr>
                     <tr>
-                        <td><code>&lt;caption&gt;</code></td>
-                        <td>Defines a table caption</td>
+                        <td>&lt;meta name="description" content="Free Web tutorials"&gt;</td>
+                        <td>Defines a description of your web page</td>
                     </tr>
                     <tr>
-                        <td><code>&lt;tr&gt;</code></td>
-                        <td> Defines a row in a table</td>
+                        <td>&lt;meta name="author" content="John Doe"&gt;</td>
+                        <td>Defines the author of a page</td>
                     </tr>
                     <tr>
-                        <td><code>&lt;colgroup&gt;</code></td>
-                        <td>Specifies a group of one or more columns in a table for formatting</td>
+                        <td>&lt;meta http-equiv="refresh" content="30"&gt;</td>
+                        <td>Refreshes the document every 30 seconds</td>
                     </tr>
                     <tr>
-                        <td><code>&lt;col&gt;</code></td>
-                        <td>Specifies column properties for each column within a <code>&lt;colgroup&gt;</code> element
-                        </td>
+                        <td>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</td>
+                        <td>Sets the viewport to make your website look good on all devices</td>
                     </tr>
-                    <tr>
-                        <td><code>&lt;thead&gt;</code></td>
-                        <td>Groups the header content in a table
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><code>&lt;tbody&gt;</code></td>
-                        <td>Groups the body content in a table</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2"><code>&lt;tfoot&gt;</code> Groups the footer content in a table</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </Section>
-
-        <section id="section20">
-            <h3>
-                lists
-            </h3>
-            <p>
-                <b>An Ordered HTML list</b>
-            </p>
-            <ul>
-                <li>
-                    An unordered list starts with the <code>&lt;ul&gt;</code> tag.</li>
-                <li>Each list item starts with the <code>&lt;li&gt;</code> tag.</li>
-                <li>The list items will be marked with bullets (small black circles) by default</li>
-            </ul>
-            <p>
-                <b>An
-                    Unordered HTML list</b>
-            </p>
-            <ol>
-                <li>
-                    An unordered list starts with the <code>&lt;ol&gt;</code> tag.</li>
-                <li>Each list item starts with the <code>&lt;li&gt;</code> tag.</li>
-                <li>The list items will be marked with numbers by default</li>
-                <li>If you want to start counting from a specified number, you can use the
-                    <code>&lt;ol start="50"&gt;</code> attribute, List will start at 50
-                </li>
-            </ol>
-            <p>
-                <b>Description list</b>
-            </p>
-            <dl>
-                <dt>A Description List</dt>
-                <dd>The <code>&lt;dl&gt;</code> tag defines the description list</dd>
-                <dt>The <code>&lt;dt&gt;</code> tag defines the term(List)</dt>
-                <dd>The <code>&lt;dd&gt;</code> tag describes each term(Description)</dd>
-            </dl>
-        </section>
-        <section id="section21">
-            <h3>Block-level Elements</h3>
-            <p>
-                A block-level element always starts on a new line, and the browsers automatically add some space (a
-                margin) before and after the element.
-
-                A block-level element always takes up the full width available (stretches out to the left and right as
-                far as it can).
-
-                Two commonly used block elements are: <code>&lt;p&gt;</code> and<code>&lt;div&gt;</code>.
-            <p>
-                The <code>&lt;p&gt;</code> element defines a paragraph in an HTML document. Look here
-            </p>
-
-            <div>
-                <p>The <code>&lt;div&gt;</code> element defines a division or a section in an HTML document.</p>
-            </div>
-            <!--border is a table attributes-->
-            <p><b>List of Block Level Elements</b>
-            </p>
-            <table>
-                <tr>
-                    <td><code>&lt;address&gt;</code></td>
-                    <td><code>&lt;article&gt;</code></td>
-                    <td><code>&lt;aside&gt;</code></td>
-                    <td><code>&lt;blockquote&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;canvas&gt;</code></td>
-                    <td><code>&lt;div&gt;</code></td>
-                    <td><code>&lt;dl&gt;</code></td>
-                    <td><code>&lt;dt&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;fieldset&gt;</code></td>
-                    <td><code>&lt;figcaption&gt;</code></td>
-                    <td><code>&lt;figure&gt;</code></td>
-                    <td><code>&lt;footer&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;form&gt;</code></td>
-                    <td><code>&lt;h1&gt;-&lt;h6&gt;</code></td>
-                    <td><code>&lt;header&gt;</code></td>
-                    <td><code>&lt;hr&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;li&gt;</code></td>
-                    <td><code>&lt;main&gt;</code></td>
-                    <td><code>&lt;nav&gt;</code></td>
-                    <td><code>&lt;noscript&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;ol&gt;</code></td>
-                    <td><code>&lt;p&gt;</code></td>
-                    <td><code>&lt;pre&gt;</code></td>
-                    <td><code>&lt;section&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;table&gt;</code></td>
-                    <td><code>&lt;tfoot&gt;</code></td>
-                    <td><code>&lt;ul&gt;</code></td>
-                    <td><code>&lt;video&gt;</code></td>
-                </tr>
-            </table>
-            </p>
-        </section>
-        <section id="section22">
-            <h3>
-                Inline Elements
-            </h3>
-            <p>
-                An inline element does not start on a new line.
-                An inline element only takes up as much width as necessary.
-            </p>
-            <b>List of Inline Elements</b>
-            <table>
-                <tr>
-                    <td><code>&lt;a&gt;</code></td>
-                    <td><code>&lt;abbr&gt;</code></td>
-                    <td><code>&lt;acronym&gt;</code></td>
-                    <td><code>&lt;b&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;bdo&gt;</code></td>
-                    <td><code>&lt;big&gt;</code></td>
-                    <td><code>&lt;br&gt;</code></td>
-                    <td><code>&lt;button&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;cite&gt;</code></td>
-                    <td><code>&lt;code&gt;</code></td>
-                    <td><code>&lt;dfn&gt;</code></td>
-                    <td><code>&lt;em&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;i&gt;</code></td>
-                    <td><code>&lt;img&gt;</code></td>
-                    <td><code>&lt;input&gt;</code></td>
-                    <td><code>&lt;kbd&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;label&gt;</code></td>
-                    <td><code>&lt;map&gt;</code></td>
-                    <td><code>&lt;object&gt;</code></td>
-                    <td><code>&lt;output&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;q&gt;</code></td>
-                    <td><code>&lt;samp&gt;</code></td>
-                    <td><code>&lt;script&gt;</code></td>
-                    <td><code>&lt;select&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;small&gt;</code></td>
-                    <td><code>&lt;span&gt;</code></td>
-                    <td><code>&lt;strong&gt;</code></td>
-                    <td><code>&lt;sub&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;sup&gt;</code></td>
-                    <td><code>&lt;textarea&gt;</code></td>
-                    <td><code>&lt;time&gt;</code></td>
-                    <td><code>&lt;tt&gt;</code></td>
-                </tr>
-                <tr>
-                    <td><code>&lt;var&gt;</code></td>
-                </tr>
-            </table>
-        </section>
-        <section id="section23">
-            <h3>Class</h3>
-            <p>
-                The class attribute is often used to point to a class name in a style sheet. It can also be used by a
-                JavaScript to access and manipulate elements with the specific class name
-                The class name is case sensitive!
-                HTML elements can belong to more than one class.Different elements can share Same Class
-            </p>
-            <p>
-                To create a class; write a period (.) character, followed by a class name <b>.class{}</b>
-            </p>
-        </section>
-        <section id="section">
-            <h3>
-                ID Attribute
-            </h3>
-            <!--AddExamples here-->
-            <p>
-                The <code>&lt;id&gt;</code> attribute specifies a unique id for an HTML element. The value of the
-                <code>&lt;id&gt;</code> attribute must be unique
-                within the HTML document.
-                The <code>&lt;id&gt;</code> attribute is used to point to a specific style declaration in a style sheet.
-                It is also used by
-                JavaScript to access and manipulate the element with the specific id.
-                The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS
-                properties within curly braces {}.
-            </p>
-            <p>
-                Difference between Class and ID
-                A class name can be used by multiple HTML elements, while an id name must only be used by one HTML
-                element within the page
-
-            </p>
-            <p>For exapmle every Bookmarks used in this tutorial is an id.</p>
-        </section>
-        <section id="section24">
-            <h3>Iframe</h3>
-            <p>An inline frame is used to embed another document within the current HTML document.</p>
-            <code>&lt;iframe src="url" title="description"&gt;</code> <code>&lt;/iframe&gt;</code>
-            <p>
-                In here the 'url' is target page.
-            </p>
-            <p>
-                It is a good practice to always include a title attribute for the <code>&lt;iframe&gt;</code>. This is
-                used by screen readers to read out what the content of the iframe. Use the height and width attributes
-                to specify the size of the iframe.
-            </p>
-        </section>
-        <section id="section25">
-            <h3>
-                JavaScript
-            </h3>
-            <p>
-                The HTML <code>&lt;script&gt;</code> tag is used to define a client-side script (JavaScript).
-
-                <br>The <code>&lt;script&gt;</code> element either contains script statements, or it points to an
-                external script file through the src attribute.
-
-                Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
-                <br>
-                To select an HTML element, JavaScript most often uses the document.getElementById() method.
-            </p>
-            <p>
-                For Example
-                <p>Click the button below to see an alert.</p>
-
-                <!-- A button that triggers the JavaScript function when clicked -->
-                <button onclick="showAlert()">Click Me</button>
-              
-                <script>
-                  // JavaScript function to show an alert
-                  function showAlert() {
-                    alert("Hello, this is a simple JavaScript alert!");
-                  }
-                </script>
-            </p>
-        </section>
-        <section id="section26">
-            <h3>
-                File Paths
-            </h3>
-            <p>
-                A file path describes the location of a file in a web site's folder structure.
-
-                File paths are used when linking to external files, like:
-            <ul>
-                <li>Web pages</li>
-                <li>Images</li>
-                <li>Style sheets</li>
-                <li>JavaScripts</li>
-            </ul>
-            </p>
-            <p>
-                <b>Relative File Paths</b>
-                <br>
-                A relative file path points to a file relative to the current page.
-
-                In the following example, the file path points to a file in the images folder located at the root of the
-                current web.<br>
-                <code>&lt;img src="/images/picture.jpg" alt="Mountain"&gt;</code>
-            </p>
-            <p>
-                <b>Absolute File Paths</b>
-                <br>
-                An absolute file path is the full URL to a file:
-
-                <br>
-                <code>&lt;img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain"&gt;</code>
-            </p>
-
-        </section>
-        <section id="section27">
-            <h3>
-                Meta Element
-            </h3>
-            <p>
-                The
-                <meta> element is typically used to specify the character set, page description, keywords, author of the
-                document, and viewport settings.
-                <br>
-                The metadata will not be displayed on the page, but is used by browsers (how to display content or
-                reload page), by search engines (keywords), and other web services.
-            </p>
-        </section>
-        <table border="1">
-            <tr>
-                <th>HTML Meta Tags</th>
-                <th>Content</th>
-            </tr>
-            <tr>
-                <td>&lt;meta charset="UTF-8"&gt;</td>
-                <td>Defines the character set used</td>
-            </tr>
-            <tr>
-                <td>&lt;meta name="keywords" content="HTML Tutorial using HTML"&gt;</td>
-                <td>Defines keywords for search engines</td>
-            </tr>
-            <tr>
-                <td>&lt;meta name="description" content="Free Web tutorials"&gt;</td>
-                <td>Defines a description of your web page</td>
-            </tr>
-            <tr>
-                <td>&lt;meta name="author" content="John Doe"&gt;</td>
-                <td>Defines the author of a page</td>
-            </tr>
-            <tr>
-                <td>&lt;meta http-equiv="refresh" content="30"&gt;</td>
-                <td>Refreshes the document every 30 seconds</td>
-            </tr>
-            <tr>
-                <td>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</td>
-                <td>Sets the viewport to make your website look good on all devices</td>
-            </tr>
-        </table>
-        <section id="section28">
-            <h3>
-                Computer Code Elements
-            </h3>
-            <P>
-                By using the <code>&lt;code&gt;</code> element, you indicate that this text should be treated as code,
-                and it will be displayed in a monospaced font, making it clear that it's a code snippet. This is useful
-                for documenting and displaying code examples on a web page.
-            </P>
-            <b>For Example Like this</b>
-            <code>
+                </table>
+                <section id="section28">
+                    <h3>Computer Code Elements</h3>
+                    <P>
+                        By using the <code>&lt;code&gt;</code> element, you indicate that this text should be treated as
+                        code,
+                        and it will be displayed in a monospaced font, making it clear that it's a code snippet. This is
+                        useful
+                        for documenting and displaying code examples on a web page.
+                    </P>
+                    <b>For Example Like this</b>
+                    <code>
             x = 5;
             y = 6;
             z = x + y;
            </code>
-        </section>
-        <section id="section29">
-            <h3>
-                Keyboard Element
-            </h3>
-            <p>The HTML <code>&lt;kbd&gt;</code> element is used to define keyboard input. The content inside is
-                displayed in the browser's default monospace font.</p>
-            <b>Right Click then Inspect to View the Code</b>
-            <p>The <kbd>Ctrl + S</kbd> keyboard shortcut is used to save the document.</p>
-        </section>
-        <section id="section30">
-            <h3>
-                Variable Element
-            </h3>
-            <p>
-                The HTML <code>&lt;var&gt;</code> element is used to define a variable in programming or in a
-                mathematical expression. The content inside is typically displayed in italic.
-            </p>
-            <b>Right Click then Inspect to View the Code</b>
-            <code>
+                </section>
+                <section id="section29">
+                    <h3> Keyboard Element</h3>
+                    <p>The HTML <code>&lt;kbd&gt;</code> element is used to define keyboard input. The content inside is
+                        displayed in the browser's default monospace font.</p>
+                    <b>Right Click then Inspect to View the Code</b>
+                    <p>The <kbd>Ctrl + S</kbd> keyboard shortcut is used to save the document.</p>
+                </section>
+                <section id="section30">
+                    <h3>Variable Element</h3>
+                    <p>
+                        The HTML <code>&lt;var&gt;</code> element is used to define a variable in programming or in a
+                        mathematical expression. The content inside is typically displayed in italic.
+                    </p>
+                    <b>Right Click then Inspect to View the Code</b>
+                    <code>
                 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
             </code>
-        </section>
-        <section id="section31">
-            <h3>Character Entities</h3>
-            <table>
-                <tr>
-                    <th>Descriptiont</th>
-                    <th>Result</th>
-                    <th>Code</th>
+                </section>
+                <section id="section31">
+                    <h3>Character Entities</h3><!-- used to represent special characters or
+                 symbols that have a specific meaning or functionality in HTML, such
+                  as reserved characters and non-standard characters-->
+                    <table>
+                        <tr>
+                            <th>Descriptiont</th>
+                            <th>Result</th>
+                            <th>Code</th>
 
-                </tr>
-                <tr>
-                    <td>non-breaking space</td>
-                    <td><code>&amp;nbsp;</code></td>
-                    <td><code>&amp;nbsp;</code></td>
+                        </tr>
+                        <tr>
+                            <td>non-breaking space</td><!--As name suggests-->
+                            <td><code>&amp;nbsp;</code></td>
+                            <td><code>&amp;nbsp;</code></td>
 
-                </tr>
-                <tr>
-                    <td>less than</td>
-                    <td><code>&lt;</code></td>
-                    <td><code>&amp;lt;</code></td>
+                        </tr>
+                        <tr>
+                            <td>less than</td><!--Same as before no point in repeating-->
+                            <td><code>&lt;</code></td>
+                            <td><code>&amp;lt;</code></td>
 
-                </tr>
-                <tr>
-                    <td>greater than</td>
-                    <td><code>&gt;</code></td>
-                    <td><code>&amp;gt;</code></td>
+                        </tr>
+                        <tr>
+                            <td>greater than</td>
+                            <td><code>&gt;</code></td>
+                            <td><code>&amp;gt;</code></td>
 
-                </tr>
-                <tr>
-                    <td>ampersand</td>
-                    <td><code>&amp;</code></td>
-                    <td><code>&amp;amp;</code></td>
+                        </tr>
+                        <tr>
+                            <td>ampersand</td>
+                            <td><code>&amp;</code></td>
+                            <td><code>&amp;amp;</code></td>
 
-                </tr>
-                <tr>
-                    <td>double quotation mark</td>
-                    <td><code>&quot;</code></td>
-                    <td><code>&amp;quot;</code></td>
+                        </tr>
+                        <tr>
+                            <td>double quotation mark</td>
+                            <td><code>&quot;</code></td>
+                            <td><code>&amp;quot;</code></td>
 
-                </tr>
-                <tr>
-                    <td>single quotation mark</td>
-                    <td><code>&apos;</code></td>
-                    <td><code>&amp;apos;</code></td>
+                        </tr>
+                        <tr>
+                            <td>single quotation mark</td>
+                            <td><code>&apos;</code></td>
+                            <td><code>&amp;apos;</code></td>
 
-                </tr>
-                <tr>
-                    <td>cent</td>
-                    <td><code>&cent;</code></td>
-                    <td><code>&amp;cent;</code></td>
+                        </tr>
+                        <tr>
+                            <td>cent</td>
+                            <td><code>&cent;</code></td>
+                            <td><code>&amp;cent;</code></td>
 
-                </tr>
-                <tr>
-                    <td>pound</td>
-                    <td><code>&pound;</code></td>
-                    <td><code>&amp;pound;</code></td>
+                        </tr>
+                        <tr>
+                            <td>pound</td>
+                            <td><code>&pound;</code></td>
+                            <td><code>&amp;pound;</code></td>
 
-                </tr>
-                <tr>
-                    <td>yen</td>
-                    <td><code>&yen;</code></td>
-                    <td><code>&amp;yen;</code></td>
+                        </tr>
+                        <tr>
+                            <td>yen</td>
+                            <td><code>&yen;</code></td>
+                            <td><code>&amp;yen;</code></td>
 
-                </tr>
-                <tr>
-                    <td>euro</td>
-                    <td><code>&euro;</code></td>
-                    <td><code>&amp;euro;</code></td>
+                        </tr>
+                        <tr>
+                            <td>euro</td>
+                            <td><code>&euro;</code></td>
+                            <td><code>&amp;euro;</code></td>
 
-                </tr>
-                <tr>
-                    <td>copyright</td>
-                    <td><code>&copy;</code></td>
-                    <td><code>&amp;copy;</code></td>
+                        </tr>
+                        <tr>
+                            <td>copyright</td>
+                            <td><code>&copy;</code></td>
+                            <td><code>&amp;copy;</code></td>
 
-                </tr>
-                <tr>
-                    <td>trademark</td>
-                    <td><code>&reg;</code></td>
-                    <td><code>&amp;reg;</code></td>
+                        </tr>
+                        <tr>
+                            <!--used to define Trademark stymbol-->
+                            <td>trademark</td>
+                            <td><code>&reg;</code></td>
+                            <td><code>&amp;reg;</code></td>
 
-                </tr>
-            </table>
-        </section>
-        <section id="Section32">
-            <h3>
-                Forms
-            </h3>
-            <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.
-            </p>
-            <p>For Example</p>
-            <form action="">
-                <label for="fname">Fname:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                <input type="submit" value="Submit">
-            </form>
-            <p>
-                The HTML &lt;form&gt; element is used to create an HTML form for user input:
-                <br>The &lt;form&gt; element is a container for different types of input elements, such as: text fields,
-                checkboxes, radio buttons, submit buttons, etc.
-            </p>
-        </section>
-
-
+                        </tr>
+                    </table>
+                </section>
+                <section id="Section32">
+                    <h3>Forms</h3>
+                    <p>An HTML form is used to collect user input. The user input is most often sent to a server for
+                        processing.
+                    </p>
+                    <p>For Example</p>
+                    <form action="">
+                        <label for="fname">Fname:</label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <p>
+                        The HTML &lt;form&gt; element is used to create an HTML form for user input:
+                        <br>The &lt;form&gt; element is a container for different types of input elements, such as: text
+                        fields,
+                        checkboxes, radio buttons, submit buttons, etc.
+                    </p>
+                </section>
     </div>
 </body>
-
 </html>
